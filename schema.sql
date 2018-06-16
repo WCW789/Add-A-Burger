@@ -1,3 +1,4 @@
+
 DROP DATABASE IF EXISTS kzu4tu6daugpxtky;
 
 CREATE DATABASE kzu4tu6daugpxtky;
