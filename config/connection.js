@@ -3,9 +3,9 @@
 // var connection = mysql.createConnection({
 //   host: "localhost",
 //   port: 3306,
-//   user: "",
-//   password: "",
-//   database: ""
+//   user: "w",
+//   password: "qwerty",
+//   database: "burger"
 // });
 
 // connection.connect(function(err) {
@@ -16,7 +16,7 @@
 //   console.log("connected as id " + connection.threadId);
 // });
 
-// module.exports = connection;
+
 
 var connection;
 if(process.env.JAWSDB_URL) {
@@ -32,3 +32,5 @@ if(process.env.JAWSDB_URL) {
       database: "heroku_kzu4tu6daugpxtky",
     });
 };
+
+module.exports = connection;
